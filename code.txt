@@ -1,0 +1,17 @@
+function factorial(n) {
+  if (n < 1) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+function add(a, b) {
+  return a + b;
+}
+
+function main() {
+  a = factorial(10);
+  b = 10000;
+  return add(a, b);
+}
